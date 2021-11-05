@@ -23,6 +23,8 @@ public class UI : MonoBehaviour
     void Start()
     {
         timer = 0.0f;
+        levelAdder = 0;
+        levelCounter = 1;
     }
         void Update()
     {

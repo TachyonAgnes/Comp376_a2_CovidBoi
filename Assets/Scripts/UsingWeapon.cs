@@ -22,6 +22,8 @@ public class UsingWeapon : MonoBehaviour
     void Start ()
     {
         usingObj = mMaskPrefab;
+        isPortalGun = false;
+        objName = new Queue<string>();
     }
 
     void Update ()
